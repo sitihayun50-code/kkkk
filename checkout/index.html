@@ -1,1 +1,25 @@
-
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Checkout - Nazuan Store</title><link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header class="navbar"><a class="brand" href="../index.html">NAZUAN STORE</a><nav><a href="../products.html">Produk</a></nav></header>
+<main class="section two-col">
+<section><h1>Checkout</h1><div id="cart"></div></section>
+<section class="card">
+<h2>Data Pemesan</h2>
+<form id="checkoutForm">
+<input name="name" required placeholder="Nama lengkap">
+<input name="phone" required placeholder="Nomor WhatsApp">
+<textarea name="address" required placeholder="Alamat / catatan"></textarea>
+<select name="payment" required><option value="">Metode pembayaran</option><option>Transfer Bank</option><option>E-Wallet</option><option>COD</option></select>
+<button class="btn primary" type="submit">Buat Pesanan</button>
+</form>
+<div id="result"></div>
+</section>
+</main>
+<script src="../assets/js/store.js"></script><script src="../assets/js/checkout.js"></script>
+</body></html>
+  
